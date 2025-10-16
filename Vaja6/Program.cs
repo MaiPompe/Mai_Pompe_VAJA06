@@ -18,6 +18,7 @@ namespace vaja6 {
         }
 
         public int Id {
+            //Omogoča, da dobimo vrednost shranjeno v id
             get
             {
                 return id;
@@ -25,6 +26,7 @@ namespace vaja6 {
         }
 
         public string U_ime {
+            //Omoogča, da nastavimo in dobimo vrednost shranjeno v u_ime
             get
             {
                 return u_ime;
@@ -37,6 +39,7 @@ namespace vaja6 {
 
         public string U_geslo
         {
+            //Omoogča, da nastavimo in dobimo vrednost shranjeno v u_geslo
             get
             {
                 return u_geslo;
@@ -49,6 +52,7 @@ namespace vaja6 {
 
         public static int StIg
         {
+            //Omogoča, da dobimo vrednost shranjeno v stIg
             get { return stIg; }
         }
     }
